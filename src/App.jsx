@@ -33,7 +33,7 @@ function Form() {
     setCartoon('');
     setErrors({});
   };
-
+  
   // Function to validate the form and update the errors state
   const validateForm = () => {
     let newErrors = {};
